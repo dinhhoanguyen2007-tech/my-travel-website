@@ -1,65 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Favorite Travel Destinations - Final Project</title>
+    <title>My Portfolio - Web Development Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
-        <h1>My Dream Travel Destinations</h1>
+        <h1>Xin chào, tôi là Lập trình viên Web</h1>
+        <p>Chào mừng đến với trang Portfolio cá nhân của tôi, nơi tổng hợp các dự án lập trình giao diện.</p>
     </header>
 
     <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>There are countless breathtaking places around the world. Here are three amazing travel destinations that
-                everyone should experience at least once in their lifetime.</p>
+        <section class="about">
+            <h2>Giới thiệu bản thân</h2>
+            <p>Tôi là một sinh viên đang theo học ngành kỹ thuật phần mềm, có đam mê xây dựng các trang web tương thích đa nền tảng, thân thiện với người dùng và tuân thủ các tiêu chuẩn web hiện đại.</p>
         </section>
 
-        <section>
-            <h2>Featured Destinations</h2>
+        <section class="projects">
+            <h2>Dự án tiêu biểu</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Accessible Photo Gallery</h3>
+                    <p>Thư viện ảnh đáp ứng (Responsive) hỗ trợ chế độ tối (Dark Mode) và giảm hiệu ứng chuyển động (Reduced Motion).</p>
+                </div>
+                <div class="project-card">
+                    <h3>My Dream Travel Destinations</h3>
+                    <p>Trang web giới thiệu các địa điểm du lịch mơ ước với bố cục linh hoạt và thiết kế tối ưu hóa trải nghiệm.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Bốn tính năng bổ sung (Extra Features)</h2>
             <ul>
-                <li>
-                    <h3>1. Da Lat City, Vietnam</h3>
-                    <p>Famous for its cool weather all year round, vast pine forests, and thousands of blooming flowers.
-                    </p>
-                    <img src="https://picsum.photos/id/1015/300/200"
-                        alt="A peaceful lake surrounded by green trees in the mountainous region of Da Lat">
-                </li>
-                <li>
-                    <h3>2. Phu Quoc Island</h3>
-                    <p>A beautiful tropical island featuring fine white sand beaches, crystal clear water, and stunning
-                        sunsets.</p>
-                    <img src="https://picsum.photos/id/1039/300/200"
-                        alt="Pristine beach with clear blue water and trees along the shore in Phu Quoc">
-                </li>
-                <li>
-                    <h3>3. Sa Pa Town</h3>
-                    <p>A foggy mountain town known for its magnificent terraced rice fields and unique ethnic cultures.
-                    </p>
-                    <img src="https://picsum.photos/id/1018/300/200"
-                        alt="Majestic mountains covered in clouds representing the highlands of Sa Pa">
-                </li>
+                <li><strong>Tính năng 1:</strong> Thiết kế lưới linh hoạt (CSS Grid Layout) tự động co giãn theo kích thước màn hình.</li>
+                <li><strong>Tính năng 2:</strong> Hỗ trợ chế độ tối tự động thông qua truy vấn media (`prefers-color-scheme: dark`).</li>
+                <li><strong>Tính năng 3:</strong> Tối ưu hóa chuyển động mượt mà và hỗ trợ `prefers-reduced-motion` cho người dùng nhạy cảm với hiệu ứng.</li>
+                <li><strong>Tính năng 4:</strong> Cấu trúc mã nguồn HTML5 semantic chuẩn W3C, dễ dàng bảo trì và mở rộng.</li>
             </ul>
-        </section>
-
-        <section>
-            <h2>Learn More</h2>
-            <p>You can discover more exciting travel guides on
-                <a href="https://www.tripadvisor.com" target="_blank" rel="noopener noreferrer">TripAdvisor Official
-                    Website</a>.
-            </p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 HTML Final Project - Coursera</p>
+        <p>&copy; 2026 My Portfolio. Được xây dựng cho khóa học Web Development.</p>
     </footer>
-
 </body>
-
 </html>
